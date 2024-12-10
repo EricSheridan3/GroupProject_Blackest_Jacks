@@ -1,21 +1,15 @@
 public class Person {
+    private String fullName;
 
-    private String firstName;
-
-    public String getFirstName() {
-        return firstName;
+    public Person(String fullName) {
+        this.fullName = fullName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public String getFullName() {
+        return fullName;
     }
 
-    public Person(String firstName) {
-        this.firstName = firstName;
+    public void setFullName(String fullName) {
+        this.fullName = fullName;
     }
-
-    public Person() {
-    }
-
-    
 }
